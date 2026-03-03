@@ -1,3 +1,5 @@
+import Marquee from "react-fast-marquee";
+
 export default function OurPart() {
    const partners = [
   {
@@ -23,18 +25,18 @@ export default function OurPart() {
                 <h1 className="text-2xl font-bold text-gray-600 ">Our Partners</h1>
                 <p className="mt-4 text-xl text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, unde hic recusandae quas obcaecati reiciendis officiis? Reprehenderit autem saepe quam quod perferendis, quas mollitia sed iure neque fugiat at optio.</p>
 
-                <marquee behavior="scroll" direction="left" scrollamount="5">
-      <div className="flex items-center gap-16 p-10">
+                <div className="w-full my-10 mt-10">
+      <Marquee  speed={50} gradient={false} className="flex flex-row items-center ">
         {partners.map((partner, index) => (
           <img
             key={index}
             src={partner.logo}
             alt={partner.name}
-            className="h-12 w-auto"
+            className="h-12 w-auto my-10 mx-10 object-contain"
           />
         ))}
-      </div>
-    </marquee>
+      </Marquee>
+    </div>
             </div>
         </>
     );
