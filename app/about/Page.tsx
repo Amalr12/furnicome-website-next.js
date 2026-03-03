@@ -1,14 +1,14 @@
 import AboutHero from "../Components/pages/about/AboutHero";
-import Ourprod from "../Components/pages/about/Ourprod";
+import OurPart from "../Components/pages/about/OurPart";
+
 
 export default function About(){
     return(
         <>
         
         <AboutHero />
-        <Ourprod />
-     
-        
+ 
+          
         </>
     );
 }
