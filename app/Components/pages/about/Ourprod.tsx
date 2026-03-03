@@ -20,8 +20,8 @@ export default function Ourprod() {
                 <div className="grid md:grid-cols-4">
                     {
                         products.map((item, index) => ((
-                            <div className="border bg-gray-400 shadow-lg flex items-center justify-center border-gray-300 w-54 h-20 pt-5 rounded-xl  mb-6 group-hover:scale-110 transition-transform mt-5 ">
-                                <div key={index} className="border bg-white shadow-lg flex items-center justify-center border-gray-300 w-50 h-20 rounded-xl  mb-6 group-hover:scale-110 transition-transform mt-5">
+                            <div key={index} className="border bg-gray-400 shadow-lg flex items-center justify-center border-gray-300 w-54 h-20 pt-5 rounded-xl  mb-6 group-hover:scale-110 transition-transform mt-5 ">
+                                <div  className="border bg-white shadow-lg flex items-center justify-center border-gray-300 w-50 h-20 rounded-xl  mb-6 group-hover:scale-110 transition-transform mt-5">
                                     <h1 className="text-xl text-gray-500 font-bold">{item}</h1>
                                 </div>
                             </div>
