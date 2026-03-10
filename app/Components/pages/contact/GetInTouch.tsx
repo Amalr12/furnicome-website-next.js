@@ -36,7 +36,7 @@ export default function GetInTouch() {
         }
     };
     return (
-        <div className="flex flex-col h-screen bg-gray-300 p-5 md:p-10">
+        <div className="flex flex-col bg-gray-300 p-5 md:p-10">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 <div className="bg-gray-200 rounded-xl p-4 md:p-5">
                     <h1 className="text-2xl md:text-4xl font-bold text-gray-800">Contact Us</h1>
