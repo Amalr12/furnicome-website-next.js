@@ -1,0 +1,96 @@
+export const categories = [
+  'All',
+  'Veneers & Laminates',
+  'Panels & Cladding',
+  'Finishing Materials',
+  'Architectural Elements',
+];
+
+export const products = [
+  {
+    id: 1,
+    name: 'Wood Veneers',
+    category: 'Veneers & Laminates',
+    description: 'Furniture | Walls | Partitions',
+    image: '/fur1.png',
+    featured: true,
+    link: '/products/wood-veneers',
+  },
+  {
+    id: 2,
+    name: 'Laminates',
+    category: 'Veneers & Laminates',
+    description: 'Interior Application',
+    image: '/Image_5.webp',
+    featured: true,
+    link: '/products/laminates',
+  },
+  {
+    id: 3,
+    name: 'Stone Veneers',
+    category: 'Veneers & Laminates',
+    description: 'Walls | Partitions',
+    image: '/fur1.png',
+    featured: true,
+    link: '/products/stone-veneers',
+  },
+  {
+    id: 4,
+    name: 'Louvers',
+    category: 'Architectural Elements',
+    description: 'Walls | Cupboard | Partitions',
+    image: '/Image_5.webp',
+    link: '/products/louvers',
+  },
+  {
+    id: 5,
+    name: 'Edge Bands',
+    category: 'Finishing Materials',
+    description: 'Tables | Wardrobes | Cabinets',
+    image: '/fur1.png',
+    link: '/products/edge-bands',
+  },
+  {
+    id: 6,
+    name: 'Fluted Panels',
+    category: 'Panels & Cladding',
+    description:
+      'Wardrobe Shutters | Ceiling | Cabinet Doors | Counters',
+    image: '/fur3.webp',
+    link: '/products/fluted-panels',
+  },
+  {
+    id: 7,
+    name: 'Exterior Wall Cladding',
+    category: 'Panels & Cladding',
+    description: 'Walls | Facade',
+    image:'/fur1.png',
+    link: '/products/exterior-wall-cladding',
+  },
+  {
+    id: 8,
+    name: 'Charcoal Panels',
+    category: 'Panels & Cladding',
+    description: 'Walls | Partitions',
+    image:'/Image_5.webp',
+    link: '/products/charcoal-panels',
+  },
+  {
+    id: 9,
+    name: 'Fabric Panel',
+    category: 'Panels & Cladding',
+    description: 'Acoustic Panels | Wall Decor',
+    image: '/iWood-faffer.jpg',
+    link: '/products/fabric-panel',
+  },
+
+  {
+    id: 10,
+    name: 'Webbing Cane',
+    category: 'Panels & Cladding',
+    description: 'Wall Panels | Furniture',
+    image:'/fur3.webp',
+    link: '/products/webbing-cane',
+  },
+  
+];

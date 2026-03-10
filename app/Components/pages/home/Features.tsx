@@ -27,7 +27,7 @@ export default function Features() {
     return (
         <div>
           
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 p-8  ">
+            <div className="grid md:grid-cols-4  gap-8 p-8  ">
 
                 {
                     features.map((item, index) => ((
