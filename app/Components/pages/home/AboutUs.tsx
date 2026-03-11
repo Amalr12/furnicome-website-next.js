@@ -35,7 +35,7 @@ export default function AboutHero() {
             </p>
 
             <Link
-              href="/about"
+              href="/aboutt"
               className="inline-flex items-center group md:mt-10">
 
               <span 
