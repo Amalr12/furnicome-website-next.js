@@ -5,7 +5,7 @@ import Features from "./Features";
 export default function AboutHero() {
     return (
         <div  className="py-24 relative"
-      style={{ backgroundColor: 'var(--background)' }}>
+     >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-24 items-center">
 
@@ -14,8 +14,7 @@ export default function AboutHero() {
             <span
               className="uppercase tracking-[0.7px] text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] leading-5"
               style={{ 
-                color: 'var(--nuhome-gold)',
-                fontWeight: 'var(--font-weight-normal)' 
+                
               }}
             >
               About Us
