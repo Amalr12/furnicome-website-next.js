@@ -29,10 +29,7 @@ export default function AboutHero() {
 
             <p
               className="text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] leading-normal text-justify"
-              style={{ 
-                color: 'var(--foreground)', 
-                fontWeight: 'var(--font-weight-normal)' 
-              }}
+             
             >
              Furnicome Furnitures is a modern furniture brand offering stylish, comfortable, and affordable home and office furniture. We focus on quality craftsmanship, elegant designs, and durable materials to create pieces that enhance both functionality and aesthetics. From sofas and dining sets to storage and décor solutions, Furnicome brings comfort and sophistication to every space.
             </p>
