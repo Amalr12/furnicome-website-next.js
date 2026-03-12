@@ -30,7 +30,7 @@ export default function Ourprod() {
 
                 </div>
                     <div>
-                        <div className="grid md:grid-cols-2 p-20 gap-10">
+                        <div className="grid md:grid-cols-2 p-10 gap-8">
                             <div className="bg-gray-950 p-10 rounded-lg text-gray-200 h-96 group-hover:scale-110 transition-transform">
                                 <h1 className="text-2xl font-bold">Our Mission</h1>
                                 <p className="text-justify text-xl space-y-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, eaque exercitationem fugit odit similique ad iste tempora necessitatibus temporibus sed vitae fugiat repellendus aut a quod iusto error, vero facilis suscipit? Qui cupiditate, corporis nisi porro ea, perferendis, nemo debitis rerum expedita laudantium repudiandae voluptas iusto. Beatae alias voluptas nostrum unde dignissimos tempora saepe a! Minima suscipit commodi dolorum impedit.</p>
