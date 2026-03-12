@@ -4,7 +4,7 @@ import HeroContact from "../Components/pages/contact/HeroContact";
 
 export default function Contact() {
 return(
-    <div className="bg-gray-300">
+    <div className="bg-gray-300 w-full">
         <HeroContact />
         <GetInTouch />
         <FindUs />

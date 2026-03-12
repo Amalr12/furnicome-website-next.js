@@ -6,7 +6,7 @@ export default function ImageSection() {
     
     <div className="relative p-8">
       <div className="space-y-4">
-        <div className="grid grid-cols-2 gap-4 relative z-10">
+        <div className="grid md:grid-cols-2 gap-4 relative z-10">
           <div className="relative overflow-hidden rounded-xl shadow-lg h-54 mt-4">
             <Image
               src="/Image_5.webp"
