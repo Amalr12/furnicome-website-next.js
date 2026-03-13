@@ -22,12 +22,12 @@ export default function ProdFeatCard({
   category: string;
 }) {
     return (
-        <div className="bg-white rounded-lg shadow-md overflow-hidden">
+        <div className="bg-white rounded-lg shadow-md overflow-hidden p-2">
            <Link href={link}>
               <img src={image} alt={title} className="w-full  object-cover" />
               <div className="p-4">
-                  <h3 className="text-xl font-bold mb-2">{title}</h3>
-                  <p className="text-gray-600">{description}</p>
+                  <h3 className="text-xl font-semibold mb-2">{title}</h3>
+                  <p className="text-gray-600 text-[12px] lg:text-[18px]">{description}</p>
               </div>
            </Link >
         </div>
