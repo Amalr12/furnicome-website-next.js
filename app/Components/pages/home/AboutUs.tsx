@@ -4,12 +4,12 @@ import Features from "./Features";
 
 export default function AboutHero() {
     return (
-        <div  className="py-24 relative"
+        <div  className="py-1 relative"
      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-24 items-center">
+        <div className="grid md:grid-cols-2 gap-24 items-center">
 
-          <div className="space-y-6">
+          <div className="space-y-6 pt-10">
 
             <span
               className="uppercase tracking-[0.7px] text-[10px] sm:text-[12px] md:text-[14px] lg:text-[16px] leading-5"

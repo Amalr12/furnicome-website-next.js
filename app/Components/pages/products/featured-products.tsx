@@ -5,12 +5,12 @@ export default function FeaturedProducts({title, description, image, category }:
 
     const featuredProd = products.filter(products=> products.featured==true).slice(0,3)
     return (
-        <div className="bg-white rounded-lg shadow-md overflow-hidden  m-3 p-10">
+        <div className="md:py-10 bg-white p-5">
            
-                <h2 className="featured-section-title mb-0 leading-none lg:mb-3 lg:text-[48px] mt-5 " style={{ fontWeight: 400 }}>
+                <h2 className="featured-section-title mb-4 leading-none lg:mb-3 lg:text-[48px] mt-5 sm:text-xl text-2xl font-bold " style={{ fontWeight: 500 }}>
            Featured Collections
           </h2>
-             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-5 p-10">
+             <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-5">
             
                       {featuredProd.map((product) => (
                         <ProdFeatCard
